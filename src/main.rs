@@ -13,7 +13,7 @@ fn main() {
     }
 
     if hm.is_empty() {
-        // if there's no filters, there's no reason to iterate the input
+        // if there's no filters, return directly
         process::exit(1);
     }
 
